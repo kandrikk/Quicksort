@@ -1,4 +1,4 @@
-#include <iostream>
+
 
 void cin_arr(int *arr, int n)
 {
@@ -14,4 +14,5 @@ void cout_arr(int *arr, int n)
     {
         std::cout << arr[i] << " ";
     }    
+    std::cout << std::endl;
 }

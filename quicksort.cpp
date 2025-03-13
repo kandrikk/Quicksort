@@ -1,4 +1,5 @@
-#include "ArrCC.h"
+#include <iostream>
+#include "PrintArrFunc.h"
 #include "HoareFunc.h"
 
 int main()
@@ -13,8 +14,5 @@ int main()
     quicksort(arr, 0, n - 1);
 
     std::cout << "\nОтсортированный массив: ";
-
     cout_arr(arr, n);
-
-    std::cout << std::endl;
 }
