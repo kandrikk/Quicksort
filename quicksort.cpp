@@ -1,4 +1,5 @@
-#include "function.h"
+#include "ArrCC.h"
+#include "HoareFunc.h"
 
 int main()
 {
@@ -7,16 +8,13 @@ int main()
     std::cin >> n;
     int *arr = new int [n];
     std::cout << "Введите элементы массива: ";
-    for (int i = 0; i < n; i++)
-    {
-        std::cin >> arr[i];
-    }
+    cin_arr(arr, n);
 
     quicksort(arr, 0, n - 1);
 
     std::cout << "\nОтсортированный массив: ";
 
-    printArray(arr, n);
+    cout_arr(arr, n);
 
     std::cout << std::endl;
 }
