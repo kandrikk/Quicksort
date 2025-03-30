@@ -1,4 +1,4 @@
-
+#include <iostream>
 
 void cin_arr(int *arr, int n)
 {

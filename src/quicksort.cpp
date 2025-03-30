@@ -1,6 +1,6 @@
 #include <iostream>
-#include "PrintArrFunc.h"
 #include "HoareFunc.h"
+#include "PrintArrFunc.h"
 
 int main()
 {

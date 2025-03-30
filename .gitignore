@@ -1,1 +1,4 @@
-test
+*.out
+*.exe
+*.o
+quicksort
