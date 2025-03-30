@@ -1,7 +1,7 @@
 CXX = g++ 
 TARGET = quicksort
 
-SRC = src/quicksort.cpp
+SRC = src/main.cpp
 
 all: $(TARGET)
 

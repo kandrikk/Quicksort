@@ -1,6 +1,6 @@
 #include <iostream>
-#include "HoareFunc.h"
-#include "PrintArrFunc.h"
+#include "quicksort.h"
+#include "helpers.h"
 
 int main()
 {
