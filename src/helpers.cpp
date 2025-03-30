@@ -1,4 +1,4 @@
-#include <iostream>
+#include "../include/function.h"
 
 void cin_arr(int *arr, int n)
 {

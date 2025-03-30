@@ -1,6 +1,5 @@
 #include <iostream>
-#include "quicksort.h"
-#include "helpers.h"
+#include "../include/function.h"
 
 int main()
 {

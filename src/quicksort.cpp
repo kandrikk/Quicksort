@@ -1,4 +1,4 @@
-#include <iostream>
+#include "../include/function.h"
 
 // Функция для разбиения Хоара
 int hoarePartition(int arr[], int low, int high) {
